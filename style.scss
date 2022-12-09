@@ -1,0 +1,106 @@
+$mainRed: #be3144;
+$mainWhite: #f0f0f0;
+$mainBlue: #0d6efd;
+$titleSize: 3.5rem;
+$underTitle: 2.0rem;
+
+body {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.welcome-header {
+    font-size: $titleSize !important;
+    letter-spacing: 0.2rem;
+}
+
+.welcome-text {
+    color: $mainRed;
+    font-size: $underTitle;
+    font-style: italic;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar-style {
+    background-color: $mainRed;
+}
+
+.nav-onMouse {
+    border-bottom: 2px solid transparent;
+}
+
+.nav-onMouse:hover {
+    color: $mainBlue !important;
+    border-bottom: 2px solid $mainBlue;
+}
+
+.welcome {
+    background-image: linear-gradient(207deg, #57595c 0%, #303031 100%);
+}
+
+.projects {
+    background-color: $mainWhite;
+}
+
+.project-title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.projects-card {
+    span {
+        color: transparent;
+    }
+}
+
+.projects-card:hover {
+    span {
+        color: $mainBlue;
+        transition: color 0.5s ease-out;
+    }
+}
+
+.card-header {
+    color: $mainBlue !important;
+}
+
+img {
+    border-radius: 0 !important;
+    height: 30vh;
+}
+
+.card-technology {
+    list-style-type: none;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    border-bottom: 1px solid $mainBlue;
+}
+
+.end-section {
+    color: $mainWhite;
+    background-image: linear-gradient(25deg, #57595c 0%, #303031 100%);
+}
+
+.contact-details {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    padding-top: 5px;
+    transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+    transform: translateY(8px);
+}

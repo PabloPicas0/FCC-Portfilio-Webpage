@@ -1,0 +1,96 @@
+body {
+  font-family: "Lato", sans-serif !important;
+}
+
+.welcome-header {
+  font-size: 3.5rem !important;
+  letter-spacing: 0.2rem;
+}
+
+.welcome-text {
+  color: #be3144;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar-style {
+  background-color: #be3144;
+}
+
+.nav-onMouse {
+  border-bottom: 2px solid transparent;
+}
+
+.nav-onMouse:hover {
+  color: #0d6efd !important;
+  border-bottom: 2px solid #0d6efd;
+}
+
+.welcome {
+  background-image: linear-gradient(207deg, #57595c 0%, #303031 100%);
+}
+
+.projects {
+  background-color: #f0f0f0;
+}
+
+.project-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.projects-card span {
+  color: transparent;
+}
+
+.projects-card:hover span {
+  color: #0d6efd;
+  transition: color 0.5s ease-out;
+}
+
+.card-header {
+  color: #0d6efd !important;
+}
+
+img {
+  border-radius: 0 !important;
+  height: 30vh;
+}
+
+.card-technology {
+  list-style-type: none;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  border-bottom: 1px solid #0d6efd;
+}
+
+.end-section {
+  color: #f0f0f0;
+  background-image: linear-gradient(25deg, #57595c 0%, #303031 100%);
+}
+
+.contact-details {
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  padding-top: 5px;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}/*# sourceMappingURL=style.css.map */
